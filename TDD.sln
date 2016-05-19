@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD", "TDD\TDD.csproj", "{7BD93CB7-4C7C-4A41-9B4A-DD8CD8F5D78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzer.Library", "BizzBuzzer\FizzBuzzer.Library.csproj", "{C41C6801-2E34-4B0A-BEAD-8E18212B1FE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzerTests.Library", "BizzBuzzerTests\FizzBuzzerTests.Library.csproj", "{43DFE4BB-837F-4E89-A94E-657D8B330822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BD93CB7-4C7C-4A41-9B4A-DD8CD8F5D78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD93CB7-4C7C-4A41-9B4A-DD8CD8F5D78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD93CB7-4C7C-4A41-9B4A-DD8CD8F5D78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD93CB7-4C7C-4A41-9B4A-DD8CD8F5D78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41C6801-2E34-4B0A-BEAD-8E18212B1FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41C6801-2E34-4B0A-BEAD-8E18212B1FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41C6801-2E34-4B0A-BEAD-8E18212B1FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41C6801-2E34-4B0A-BEAD-8E18212B1FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DFE4BB-837F-4E89-A94E-657D8B330822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DFE4BB-837F-4E89-A94E-657D8B330822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DFE4BB-837F-4E89-A94E-657D8B330822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DFE4BB-837F-4E89-A94E-657D8B330822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
